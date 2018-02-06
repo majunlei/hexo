@@ -66,7 +66,8 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-#favicon: /favicon.png
+
+favicon: 'http://cloud.mangomango.cc/favicon.ico'
 
 #你的头像url
 avatar: "http://cloud.mangomango.cc/tx.jpg"
@@ -108,7 +109,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -116,8 +117,11 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: false
+  innerArchive: 文章
   friends: false
-  aboutme: false
+  aboutme: 关于我
 
-aboutme: 只分享有用的，只记录有趣的
+aboutme: 
+  分享有用的<br/>
+  记录有趣的<br/>
+  用笔记录，用心生活
